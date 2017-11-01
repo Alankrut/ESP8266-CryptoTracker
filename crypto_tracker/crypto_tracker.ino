@@ -4,7 +4,7 @@
 #include <ESP8266WiFiMulti.h>
 #include <WiFiClientSecure.h>
 #include <ArduinoJson.h>
-#include "config.h"
+#include "config.mine.h"  // Change this to just 'config.h'
 
 ESP8266WiFiMulti WiFiMulti;
 LiquidCrystal_I2C lcd(0x27, 20, 4);
